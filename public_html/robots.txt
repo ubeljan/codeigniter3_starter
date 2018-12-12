@@ -1,0 +1,6 @@
+User-agent: *
+
+Disallow: /afbeeldingen/
+Disallow: /assets/
+
+Sitemap: http://www.uwbudget.nl/sitemap.xml

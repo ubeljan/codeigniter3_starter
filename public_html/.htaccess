@@ -1,0 +1,29 @@
+# Disallow directory listings
+    Options -Indexes
+
+# Disable server signature
+    ServerSignature Off
+
+
+<IfModule mod_setenvif.c>
+
+	SetEnvIf Host u1604s2$ CI_ENV=development
+	SetEnvIf Host 192.168.168.159$ CI_ENV=testing
+    SetEnvIf Host dev.vanwijheweb.nl$ CI_ENV=production
+
+</IfModule>
+
+
+<IfModule mod_rewrite.c>
+
+    RewriteEngine On
+
+    RewriteCond %{ENV:REDIRECT_VAR} !^$
+    RewriteRule .* - [E=VAR:%{ENV:REDIRECT_VAR}]
+
+	RewriteCond $1 !^(index\.php|assets|afbeeldingen|robots\.txt)
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+
+</IfModule>
