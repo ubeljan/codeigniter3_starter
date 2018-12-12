@@ -28,7 +28,7 @@ For now in Dutch.
 
 CodeIgniter
 * https://www.codeigniter.com/user_guide/ - CodeIgniter User Guide  
-* https://www.vanwijheweb.nl/portaal/codeigniter - Articles about CodeIgniter
+* https://www.vanwijheweb.nl/codeigniter/ - Articles about CodeIgniter
 
 ## Authors
 
