@@ -1,4 +1,4 @@
-# Codeigniter 3 basis
+# Codeigniter 3 start
 
 The base of your next website / Content Management System.
 
@@ -24,7 +24,7 @@ Basis knowledge how to:
 
 For now in Dutch.
 
-## How to it works
+## How to it works 
 
 CodeIgniter
 * https://www.codeigniter.com/user_guide/ - CodeIgniter User Guide  
