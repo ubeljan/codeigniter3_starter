@@ -1,3 +1,5 @@
+![Codeigniter 3 starter](https://www.vanwijheweb.nl/afbeeldingen/logo/codeigniter3_starter_356_66.png)
+
 # Codeigniter 3 start
 
 The base of your next website / Content Management System.
